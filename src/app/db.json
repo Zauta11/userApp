@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "username": "ანა",
+      "lastname": "გაბუნია",
+      "id": "01010101101",
+      "email": "anagabunia@gmail.com",
+      "date": "2003-04-19T19:00:00.000Z"
+    },
+    {
+      "username": "გიორგი",
+      "lastname": "დოლიძე",
+      "id": "01012014212",
+      "email": "g.dolidze@gmail.com",
+      "date": "2001-06-11T19:00:00.000Z"
+    },
+    {
+      "username": "დავით",
+      "lastname": "ბერიძე",
+      "id": "31001233547",
+      "email": "d.beridze@gmail.com",
+      "date": "1996-10-06T19:00:00.000Z"
+    },
+    {
+      "username": "ნინო",
+      "lastname": "სეფაშვილი",
+      "id": "36201192012",
+      "email": "ninosefashvili@gmail.com",
+      "date": "1998-09-29T19:00:00.000Z"
+    },
+    {
+      "username": "შალვა",
+      "lastname": "ხოფერია",
+      "id": "01012174801",
+      "email": "sh.khoperia@yahoo.com",
+      "date": "1993-05-09T20:00:00.000Z"
+    },
+    {
+      "username": "სალომე",
+      "lastname": "გობრონიძე",
+      "id": "01011202451",
+      "email": "salomeg@gmail.com",
+      "date": "1995-07-31T19:00:00.000Z"
+    },
+    {
+      "username": "თორნიკე",
+      "lastname": "ბაღაშვილი",
+      "id": "29102024475",
+      "email": "t.baga@gmail.com",
+      "date": "1998-02-19T20:00:00.000Z"
+    },
+    {
+      "username": "ლევან",
+      "lastname": "კალანდაძე",
+      "id": "45123042321",
+      "email": "kalandadze@gmail.com",
+      "date": "1992-06-07T20:00:00.000Z"
+    },
+    {
+      "username": "qweqwe",
+      "lastname": "qwe",
+      "id": "12312312312",
+      "email": "asd@ds.sd",
+      "date": "2022-12-20T20:00:00.000Z"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

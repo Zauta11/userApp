@@ -1,0 +1,36 @@
+<h2 mat-dialog-title >Add New User</h2>
+
+<div mat-dialog-content>
+    <form [formGroup]="userForm" >
+
+        <mat-form-field appearance="outline">
+            <mat-label>E-mail</mat-label>
+            <input formControlName="email" matInput placeholder="E-mail">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>ID number</mat-label>
+          <input formControlName="id" matInput placeholder="ID">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>UserName</mat-label>
+          <input formControlName="username" matInput placeholder="username">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>LastName</mat-label>
+            <input formControlName="lastname" matInput placeholder="lastname">
+        </mat-form-field>
+          <mat-form-field appearance="outline">
+              <mat-label>Choose a date</mat-label>
+              <input formControlName="date" matInput [matDatepicker]="picker">
+              <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+              <mat-datepicker #picker ></mat-datepicker>
+            </mat-form-field>
+        </form>
+            
+</div>
+
+<!-- Dialog buttons -->
+<div mat-dialog-actions [align]="'end'" >
+    <button mat-raised-button color="warn" mat-dialog-close >Close</button>
+    <button mat-raised-button color="primary" (click)="addUser()" [disabled]="userForm.invalid" >{{actionBtn}}</button>
+</div>
